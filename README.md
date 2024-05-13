@@ -5,6 +5,7 @@
 | Lucian-Ovidiu Marinescu  | ( team leader )     |
 |--------------------------|---------------------|
 | **Alina Iftode**         | **( full member )** |
+| **Buzarin Cosmin**       | **( full member )** |
 | **Andrei-Adelin Cazacu** | **( full member )** |
 | **George Pletea**        | **( full member )** |
 
@@ -24,7 +25,7 @@
 + #### Programming languages and techniques, data structures
 + #### Schedule
 + #### Assessments
-+ #### Conclusion
+
 
 ## Instruments
 
@@ -92,10 +93,11 @@
 
 ## Assessments
 
-| Lucian-Ovidiu Marinescu  | **( % )** |
-|--------------------------|-----------|
-| **Alina Iftode**         | **( % )** |
-| **Andrei-Adelin Cazacu** | **( % )** |
-| **George Pletea**        | **( % )** |
+| Lucian-Ovidiu Marinescu  | **( 20% )** |
+|--------------------------|-------------|
+| **Alina Iftode**         | **( 20% )** |
+| **Buzarin Cosmin**       | **( 20% )** |
+| **Andrei-Adelin Cazacu** | **( 20% )** |
+| **George Pletea**        | **( 20% )** |
 
-## Conclusion
+

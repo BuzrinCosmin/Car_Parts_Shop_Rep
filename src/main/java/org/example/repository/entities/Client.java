@@ -15,14 +15,23 @@ import java.util.UUID;
 @RequiredArgsConstructor
 @Entity(name = "clients")
 public class Client {
-  @Id
-  @GeneratedValue
-  private UUID id;
-  @NonNull
-  private String name;
-  @NonNull
-  private String phoneNumber;
-  @OneToMany
-  @JoinColumn(name = "client_id")
-  private final List<Offer> offers = new ArrayList<>();
+    @Id
+    @GeneratedValue
+    private UUID id;
+    @NonNull
+    private String name;
+    @NonNull
+    private String phoneNumber;
+    @OneToMany
+    @JoinColumn(name="client_id")
+    private final List<Offer> offers = new ArrayList<>();
+
+    @Override
+    public String toString() {
+        return "Client{" +
+                "name='" + name + '\'' +
+                ", phoneNumber='" + phoneNumber + '\'' +
+                ", offers=" + offers +
+                '}';
+    }
 }

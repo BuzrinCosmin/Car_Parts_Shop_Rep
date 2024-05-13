@@ -28,7 +28,7 @@ public class CarPartsUtility {
           10 + (int)(40 * Math.random())
         );
         carPart.setName(name);
-//        carPart.setCar(car);
+       carPart.setCar(car);
         carPartRepository.insert(carPart);
       }
     ));

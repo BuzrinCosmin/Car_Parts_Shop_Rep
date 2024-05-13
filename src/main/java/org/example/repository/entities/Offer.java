@@ -27,4 +27,18 @@ public class Offer {
     inverseJoinColumns = @JoinColumn(name = "car_part_id")
   )
   private final List<CarPart> carParts = new ArrayList<>();
+
+  @Override
+  public String toString() {
+    StringBuilder result = new StringBuilder("Offer {");
+    result.append((null == id) ? "not yet an offer" : id.toString()).append("}:\n");
+    carParts.forEach(carPart -> result.append("    ").append(carPart.toString()).append("\n"));
+    DecimalFormat decimalFormat = new DecimalFormat("0.00");
+    return result
+            .append("  total amount: $").append(decimalFormat.format(OfferUtility.getTotalAmount(carParts)))
+            .append("  amount: $").append(decimalFormat.format(amount))
+            .append("  discount: ").append(decimalFormat.format(OfferUtility.getDiscount(this))).append(" %")
+            .toString();
+  }
+
 }
